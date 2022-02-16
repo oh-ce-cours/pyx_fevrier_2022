@@ -1,0 +1,32 @@
+
+888b     d888          d8b 888 d8b  .d8888b.                                    888
+8888b   d8888          Y8P 888 Y8P d88P  Y88b                                   888
+88888b.d88888              888     Y88b.                                        888
+888Y88888P888  .d88b.  888 888 888  "Y888b.    .d88b.   8888b.  888d888 .d8888b 88888b.
+888 Y888P 888 d8P  Y8b 888 888 888     "Y88b. d8P  Y8b     "88b 888P"  d88P"    888 "88b
+888  Y8P  888 88888888 888 888 888       "888 88888888 .d888888 888    888      888  888
+888   "   888 Y8b.     888 888 888 Y88b  d88P Y8b.     888  888 888    Y88b.    888  888
+888       888  "Y8888  888 888 888  "Y8888P"   "Y8888  "Y888888 888     "Y8888P 888  888
+
+Database path:		"./data.ms"
+Server listening on:	"http://127.0.0.1:7700"
+Environment:		"development"
+Commit SHA:		"523fb5cd566f22168e89cb0af1f341d9b6f99ede"
+Commit date:		"2022-01-18T14:30:37+00:00"
+Package version:	"0.25.2"
+
+Thank you for using MeiliSearch!
+
+We collect anonymized analytics to improve our product and your experience. To learn more, including how to turn off analytics, visit our dedicated documentation page: https://docs.meilisearch.com/learn/what_is_meilisearch/telemetry.html
+
+Anonymous telemetry:	"Enabled"
+Instance UID:		"f400a083-fc8a-495e-8a45-e68a245c77b8"
+
+No master key found; The server will accept unidentified requests. If you need some protection in development mode, please export a key: export MEILI_MASTER_KEY=xxx
+
+Documentation:		https://docs.meilisearch.com
+Source code:		https://github.com/meilisearch/meilisearch
+Contact:		https://docs.meilisearch.com/resources/contact.html
+
+[2022-01-31T21:36:42Z INFO  actix_server::builder] Starting 4 workers
+[2022-01-31T21:36:42Z INFO  actix_server::server] Actix runtime found. Starting in Actix runtime
