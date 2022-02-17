@@ -1,8 +1,10 @@
 # from utils import traitement_cellule
 # traitement_cellule()
 
-# import utils
-# utils.traitement_cellule()
+import utils
+
+utils.traitement_cellule()
+utils.applique_la_transformee_de_falce()
 
 import time
 
@@ -29,8 +31,6 @@ for element in datas:
     ## différentes méthodes d'affichage, par affinité avec le formateur
     ## elles font toutes la même chose
 
-    
-    
     print(f"'{element_au_carre}'")
     # print("'{}'".format(element_sans_espace))
     # print("'%s'" % (element_sans_espace,))
