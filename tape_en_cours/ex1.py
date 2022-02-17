@@ -9,7 +9,7 @@ data_sans_espaces = []
 for element in datas:
     try:
         time.sleep(0.5)
-    except BaseException:
+    except Exception: 
         print("on sort pas")
 
     element_sans_espace = element.strip()  # on enleve les espaces
