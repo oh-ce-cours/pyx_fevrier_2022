@@ -1,3 +1,4 @@
+import time 
 # on veut transformer un "CSV séparé par des lignes" en 
 # "CSV avec des largeurs de colonnes fixes (5 chars) en mettant au carré chacun des éléments" 
 ligne = "  1,   2   ,3,4,5 \n ,  toto, 7, 9, 10, 11"
@@ -5,6 +6,7 @@ datas = ligne.split(",")
 
 data_sans_espaces = []
 for element in datas:
+    time.sleep(0.5)
     element_sans_espace = element.strip()  # on enleve les espaces
     try:
         element_au_carre = str(int(element_sans_espace) ** 2)
