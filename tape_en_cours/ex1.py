@@ -1,4 +1,9 @@
-from lib2to3.pytree import Base
+# from utils import traitement_cellule
+# traitement_cellule()
+
+# import utils 
+# utils.traitement_cellule()
+
 import time 
 # on veut transformer un "CSV séparé par des lignes" en 
 # "CSV avec des largeurs de colonnes fixes (5 chars) en mettant au carré chacun des éléments" 
