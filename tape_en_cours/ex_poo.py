@@ -1,7 +1,7 @@
 class Personne:
     def __init__(self):
-        self.naissance = ...
-        self.nom = ...
+        self.naissance = naissance
+        self.nom = nom
 
 
 p1 = Personne(naissance=1990, nom="Matthieu")
