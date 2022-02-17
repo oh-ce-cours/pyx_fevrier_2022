@@ -4,7 +4,7 @@
 import utils
 
 utils.traitement_cellule()
-utils.applique_la_transformee_de_falce()
+utils.applique_la_transformee_de_falce(1)
 
 import time
 
