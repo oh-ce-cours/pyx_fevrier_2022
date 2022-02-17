@@ -17,7 +17,11 @@ for element in datas:
     except Exception: 
         print("on sort pas")
 
-    element_sans_espace = element.strip()  # on enleve les espaces
+
+
+
+
+    element_sans_espace =     element.strip()  # on enleve les espaces
     try:
         element_au_carre = str(int(element_sans_espace) ** 2)
     except ValueError:
