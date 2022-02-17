@@ -1,5 +1,5 @@
 class Personne:
-    def __init__(self):
+    def __init__(self, naissance, nom):
         self.naissance = naissance
         self.nom = nom
 
