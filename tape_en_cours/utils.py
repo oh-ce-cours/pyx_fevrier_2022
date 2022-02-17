@@ -12,7 +12,7 @@ def traitement_cellule(element):
     return f"{element_au_carre:>8}"
 
 
-def applique_la_transformee_de_falce(element):
+def applique_la_transformee_de_falce(element: str):
     """Blabla
 
     Ecrit un message d'erreur si l'élément est à 0.
