@@ -12,10 +12,6 @@ ligne = "  1,   2   ,3,4,5 \n ,  toto, 7, 9, 10, 11"
 datas = ligne.split(",")
 
 
-def toto():
-    pass
-
-
 data_sans_espaces = []
 for element in datas:
     try:
