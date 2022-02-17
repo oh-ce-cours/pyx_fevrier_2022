@@ -2,7 +2,6 @@
 # traitement_cellule()
 
 import utils
-
 # utils.traitement_cellule()
 # utils.applique_la_transformee_de_falce(1)
 
