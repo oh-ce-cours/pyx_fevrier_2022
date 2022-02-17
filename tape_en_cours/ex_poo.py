@@ -1,6 +1,7 @@
 class Personne:
     def __init__(self):
-        pass
+        self.naissance = ...
+        self.nom = ...
 
 
 p1 = Personne(naissance=1990, nom="Matthieu")
