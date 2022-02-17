@@ -28,3 +28,5 @@ def applique_la_transformee_de_falce(element: str):
         element_au_carre = "NaN"
 
     return f"{element_au_carre:>8}"
+
+    zezfz
