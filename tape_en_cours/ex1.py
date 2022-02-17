@@ -11,6 +11,7 @@ for element in datas:
     except ValueError:
         element_au_carre = "NA"
     data_sans_espaces.append(element_au_carre)
+
     ## différentes méthodes d'affichage, par affinité avec le formateur 
     ## elles font toutes la même chose
     print(f"'{element_au_carre}'")
