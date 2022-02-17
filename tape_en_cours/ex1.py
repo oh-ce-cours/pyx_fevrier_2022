@@ -28,6 +28,9 @@ for element in datas:
 
     ## différentes méthodes d'affichage, par affinité avec le formateur
     ## elles font toutes la même chose
+
+    
+    
     print(f"'{element_au_carre}'")
     # print("'{}'".format(element_sans_espace))
     # print("'%s'" % (element_sans_espace,))
