@@ -13,8 +13,6 @@ def is_mail(mail):
 
 mails = [mail for mail in tests if is_mail(mail)]
 pattern_info = (
-    r"(?P<identifiant>[a-z0-9._-]+)"
-    r"@"
-    r"(?P<domaine>[a-z0-9._-]+)\.(?P<tld>.{2,30})"
+    r"(?P<identifiant>[a-z0-9._-]+)" r"@" r"(?P<domaine>[a-z0-9._-]+)\.(?P<tld>.{2,30})"
 )
 infos = [re.match(pattern_info, mail).groupdict() for mail in mails]

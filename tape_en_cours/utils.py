@@ -9,4 +9,4 @@ def traitement_cellule(element):
         print("On a un 0, on ne devrait pas", e, type(e))
         element_au_carre = "NaN"
 
-    return f'{element_au_carre:>8}'
+    return f"{element_au_carre:>8}"
