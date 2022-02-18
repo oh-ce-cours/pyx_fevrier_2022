@@ -11,4 +11,4 @@ ttk.Button(frm, text="Quit", command=root.destroy).grid(column=0, row=1)
 # mask = READABLE | WRITABLE
 # widget.tk.createfilehandler(file, mask, callback)
 
-# root.mainloop()
+root.mainloop()
