@@ -5,8 +5,7 @@ import puremagic
 import argparse
 import shutil
 
-print(sys.argv)
-tar_file = sys.argv[1]
+tar_file
 
 
 parser = argparse.ArgumentParser(description="Process some integers.")
