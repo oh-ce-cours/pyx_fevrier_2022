@@ -49,7 +49,7 @@ def augment_parsed_line_user_agent(parsed):
 def parse_lines(lines):
     res = []
     with geoip2.database.Reader(
-        "/home/user/Documents/pyx_fevrier_2022/medias/administrationSysteme/analyseLogs/GeoLite2-Country_20220125.tar.gz"
+        "/home/user/Documents/pyx_fevrier_2022/medias/administrationSysteme/analyseLogs/GeoLite2-Country.mmdb"
     ) as reader:
         # for line in tqdm(lines):
         for line in track(lines, description="Parsing lines"):
