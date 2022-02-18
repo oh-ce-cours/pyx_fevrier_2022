@@ -2,13 +2,12 @@ from logging import root
 from pathlib import Path
 import tarfile
 import puremagic
-import sys
+import argparse
 import shutil
 
 print(sys.argv)
 tar_file = sys.argv[1]
 
-import argparse
 
 parser = argparse.ArgumentParser(description="Process some integers.")
 parser.add_argument(
