@@ -1,8 +1,10 @@
 from tkinter import *
 from tkinter import ttk
+import time
 
 
 def mon_callback():
+    time.sleep(5)
     print("je suis cliqué")
 
 
