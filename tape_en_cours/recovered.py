@@ -20,8 +20,6 @@ check = args.check
 print(tar_file)
 print(check)
 
-1 / 0
-
 
 def untar(tar_filename, extract_path):
     if tar_filename.endswith("tar.gz"):
@@ -47,8 +45,11 @@ for path in extracted.iterdir():
     new_name = f"{new_name}.{extension_without_point}"
     new_file_path = recovered / extension_without_point / new_name
     print(f"{path} => {new_file_path}")
-    new_file_path.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(path, new_file_path)
-shutil.make_archive("recovered", format="zip", root_dir=recovered)
-shutil.rmtree(recovered)
-shutil.rmtree(extracted)
+    if not check:
+        new_file_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(path, new_file_path)
+
+if not check:
+    shutil.make_archive("recovered", format="zip", root_dir=recovered)
+    shutil.rmtree(recovered)
+    shutil.rmtree(extracted)
