@@ -6,7 +6,7 @@ import sys
 import shutil
 
 print(sys.argv)
-# tar_file = r"C:\Users\33612\Desktop\orsys_fevrier_2022_pyx\medias\administrationSysteme\manipulationFichiers\fichiersVrac.tar.gz"
+tar_file = sys.argv[1]
 
 
 def untar(tar_filename, extract_path):
