@@ -8,10 +8,8 @@ import shutil
 tar_file
 
 
-parser = argparse.ArgumentParser(description="Process some integers.")
-parser.add_argument(
-    "integers", metavar="N", type=int, nargs="+", help="an integer for the accumulator"
-)
+parser = argparse.ArgumentParser(description="Recover some files.")
+parser.add_argument("path", metavar="N", type=str, help="the .tar(.gz) path to extract")
 parser.add_argument(
     "--sum",
     dest="accumulate",
