@@ -9,12 +9,12 @@ import shutil
 parser = argparse.ArgumentParser(description="Recover some files.")
 parser.add_argument("path", type=str, help="the .tar(.gz) path to extract")
 parser.add_argument(
-    "--sum",
+    "--check",
     dest="accumulate",
     action="store_const",
     const=sum,
     default=max,
-    help="sum the integers (default: find the max)",
+    help="Should the actions be perfomed",
 )
 
 args = parser.parse_args()
