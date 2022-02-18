@@ -2,9 +2,11 @@ from logging import root
 from pathlib import Path
 import tarfile
 import puremagic
+import sys
 import shutil
 
-tar_file = r"C:\Users\33612\Desktop\orsys_fevrier_2022_pyx\medias\administrationSysteme\manipulationFichiers\fichiersVrac.tar.gz"
+print(sys.argv)
+# tar_file = r"C:\Users\33612\Desktop\orsys_fevrier_2022_pyx\medias\administrationSysteme\manipulationFichiers\fichiersVrac.tar.gz"
 
 
 def untar(tar_filename, extract_path):
