@@ -1,6 +1,11 @@
 from tkinter import *
 from tkinter import ttk
 
+
+def mon_callback():
+    print("je suis cliqué")
+
+
 root = Tk()
 frm = ttk.Frame(root, padding=10)
 frm.grid()
