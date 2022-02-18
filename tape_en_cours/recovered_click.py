@@ -48,3 +48,7 @@ def main(tar_file, check):
         shutil.rmtree(extracted)
     else:
         print("should create archive")
+
+
+if __name__ == "__main__":
+    main()
