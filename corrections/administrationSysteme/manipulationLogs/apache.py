@@ -68,7 +68,7 @@ def analyse(parsed):
     print(
         f"Volume transféré : {sum(int(p['weight']) for p in parsed) / (1024 * 1024):.2f} Mio"
     )
-    analyse_calendar(parsed)
+    # analyse_calendar(parsed)
 
 
 def analyse_calendar(parsed):
