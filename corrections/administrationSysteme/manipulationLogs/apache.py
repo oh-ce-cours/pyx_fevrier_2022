@@ -119,7 +119,7 @@ def analyse_status_codes(parsed):
 
 
 def main():
-    zip_path = "~/Documents/pyx_fevrier_2022/medias/analyseLogs/apache.zip"
+    zip_path = "/home/user/Documents/pyx_fevrier_2022/medias/analyseLogs/apache.zip"
     with zipfile.ZipFile(zip_path, "r") as myzip:
         with myzip.open("apache.log") as myfile:
             myfile = io.TextIOWrapper(myfile, encoding="utf8", newline="")
