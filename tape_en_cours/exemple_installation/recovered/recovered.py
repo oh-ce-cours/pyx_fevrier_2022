@@ -19,6 +19,7 @@ def untar(tar_filename, extract_path):
 
 extracted = Path(".") / "extracted"
 recovered = Path(".") / "recovered"
+extracted.mkdir(exist_ok=True)
 
 
 @click.command()
