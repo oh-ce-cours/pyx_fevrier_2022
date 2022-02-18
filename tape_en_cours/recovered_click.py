@@ -27,6 +27,10 @@ recovered = Path(".") / "recovered"
     "--check", default=False, help="Should we perform the actions.", is_flag=True
 )
 def main(tar_file, check):
+    recover(tar_file, check)
+
+
+def recover(tar_file, check):
     untar(tar_file, extracted)
     for path in extracted.iterdir():
         correct_extention = puremagic.from_file(str(path))
