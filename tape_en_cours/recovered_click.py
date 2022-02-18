@@ -23,7 +23,9 @@ recovered = Path(".") / "recovered"
 
 @click.command()
 @click.argument("tar_file", default="")
-@click.option("--check", default=False, help="The person to greet.", is_flag=True)
+@click.option(
+    "--check", default=False, help="Should we perform the actions.", is_flag=True
+)
 def main(tar_file, check):
     untar(tar_file, extracted)
     for path in extracted.iterdir():
