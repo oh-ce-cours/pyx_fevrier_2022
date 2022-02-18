@@ -7,7 +7,6 @@ import io
 from dateutil import parser
 
 # presentation
-from tqdm import tqdm
 from rich.console import Console
 from rich.table import Table
 from rich.progress import track
