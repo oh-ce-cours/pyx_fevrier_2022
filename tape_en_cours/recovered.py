@@ -8,6 +8,24 @@ import shutil
 print(sys.argv)
 tar_file = sys.argv[1]
 
+import argparse
+
+parser = argparse.ArgumentParser(description="Process some integers.")
+parser.add_argument(
+    "integers", metavar="N", type=int, nargs="+", help="an integer for the accumulator"
+)
+parser.add_argument(
+    "--sum",
+    dest="accumulate",
+    action="store_const",
+    const=sum,
+    default=max,
+    help="sum the integers (default: find the max)",
+)
+
+args = parser.parse_args()
+print(args.accumulate(args.integers))
+
 
 def untar(tar_filename, extract_path):
     if tar_filename.endswith("tar.gz"):
