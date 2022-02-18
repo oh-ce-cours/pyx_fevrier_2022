@@ -48,8 +48,12 @@ for path in extracted.iterdir():
     if not check:
         new_file_path.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(path, new_file_path)
+    else:
+        print(f"should create {new_file_path.parent}")
 
 if not check:
     shutil.make_archive("recovered", format="zip", root_dir=recovered)
     shutil.rmtree(recovered)
     shutil.rmtree(extracted)
+else:
+    print("should create archive")
