@@ -16,7 +16,9 @@ parser.add_argument(
 
 args = parser.parse_args()
 tar_file = args.path
+check = args.check
 print(tar_file)
+print(check)
 
 
 def untar(tar_filename, extract_path):
