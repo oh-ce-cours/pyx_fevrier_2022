@@ -9,7 +9,7 @@ tar_file
 
 
 parser = argparse.ArgumentParser(description="Recover some files.")
-parser.add_argument("path", metavar="N", type=str, help="the .tar(.gz) path to extract")
+parser.add_argument("path", type=str, help="the .tar(.gz) path to extract")
 parser.add_argument(
     "--sum",
     dest="accumulate",
