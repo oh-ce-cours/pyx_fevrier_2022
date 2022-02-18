@@ -10,7 +10,6 @@ from dateutil import parser
 from rich.console import Console
 from rich.table import Table
 from rich.progress import track
-from termgraph import termgraph, module
 
 # https://github.com/elastic/examples/tree/master/Common%20Data%20Formats/apache_logs
 
