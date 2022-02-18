@@ -20,6 +20,8 @@ check = args.check
 print(tar_file)
 print(check)
 
+1 / 0
+
 
 def untar(tar_filename, extract_path):
     if tar_filename.endswith("tar.gz"):
