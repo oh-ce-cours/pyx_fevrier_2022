@@ -21,6 +21,9 @@ extracted = Path(".") / "extracted"
 recovered = Path(".") / "recovered"
 
 
+@click.command()
+@click.option("tar_file", default=1, help="Number of greetings.")
+@click.option("--check", prompt="Your name", help="The person to greet.")
 def main(tar_file, check):
     untar(tar_file, extracted)
     for path in extracted.iterdir():
