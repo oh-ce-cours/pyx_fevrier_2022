@@ -11,7 +11,7 @@ parser.add_argument("path", type=str, help="the .tar(.gz) path to extract")
 parser.add_argument(
     "--check",
     dest="accumulate",
-    action="store_const",
+    action="store_true",
     const=sum,
     default=max,
     help="Should the actions be perfomed",
