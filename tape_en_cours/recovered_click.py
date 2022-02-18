@@ -22,7 +22,7 @@ recovered = Path(".") / "recovered"
 
 
 @click.command()
-@click.option("tar_file", default="", help="the .tar(.gz) path to extract")
+@click.argument("tar_file", default="", help="the .tar(.gz) path to extract")
 @click.option("--check", prompt="Your name", help="The person to greet.")
 def main(tar_file, check):
     untar(tar_file, extracted)
